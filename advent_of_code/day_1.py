@@ -31,3 +31,11 @@ for i in range(len(lf[0])):
 
 print(distance)
 
+similarity_score = 0
+
+for i in range(len(l1)):
+    similarity_score += l2.count(l1[i])*int(l1[i])
+
+print(similarity_score)
+
+
